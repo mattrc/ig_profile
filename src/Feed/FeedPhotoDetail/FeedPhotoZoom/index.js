@@ -1,0 +1,1 @@
+export { FeedPhotoZoom } from './FeedPhotoZoom';

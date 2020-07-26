@@ -1,0 +1,1 @@
+export { FeedPhotoComments} from './FeedPhotoComments';

@@ -1,0 +1,18 @@
+.user-header {
+  flex-flow: row wrap;
+  position: absolute;
+  padding: 20px 16px;
+  right: 0;
+  top: 0;
+  height: var(--feed-photo-header-height);
+  width: var(--feed-photo-right-section-width);
+  border-left: var(--border);
+  border-bottom: var(--border);
+
+  &__info {
+    justify-content: center;
+    margin-left: 14px;
+    flex-grow: 1;
+    font-weight: var(--font-weight-bold);
+  }
+}

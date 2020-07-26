@@ -1,0 +1,17 @@
+.feed-photo-comment {
+  flex-direction: row;
+  width: 100%;
+
+  &__content {
+    display: inline-block;
+    margin-left: 14px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+    h2 {
+      display: inline-flex;
+      font-weight: var(--font-weight-bold);
+      margin-right: 4px;
+    }
+  }
+}

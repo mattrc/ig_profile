@@ -1,0 +1,38 @@
+.profile-pic {
+  cursor: pointer;
+  align-self: center;
+  --pic-size: 150px;
+  --canvas-size: 166px;
+  --pic-position: -8px;
+  --border-color: rgba(0, 0, 0, .0975);
+
+  &--tiny {
+    --pic-size: 32px;
+    --canvas-size: 42px;
+    --pic-position: -5px;
+  }
+
+  canvas {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid var(--border-color);
+    width: var(--canvas-size);
+    height: var(--canvas-size);
+    top: var(--pic-position);
+    left: var(--pic-position);
+  }
+
+  &__image {
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    width: var(--pic-size);
+    height: var(--pic-size);
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+}

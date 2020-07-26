@@ -1,0 +1,1 @@
+export { FeedPhoto } from './FeedPhoto';

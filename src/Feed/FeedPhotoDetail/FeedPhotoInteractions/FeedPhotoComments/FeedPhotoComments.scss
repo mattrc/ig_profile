@@ -1,0 +1,16 @@
+.feed-photo-comments {
+  order: 1;
+  overflow: auto;
+  overflow-x: hidden;
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  ul {
+    padding: 16px 0;
+
+    > li {
+      padding-top: 12px;
+      padding-bottom: 16px;
+    }
+  }
+}

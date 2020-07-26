@@ -1,0 +1,1 @@
+export { FeedPhotoDetail } from './FeedPhotoDetail';

@@ -1,0 +1,6 @@
+.feed-content {
+  --gutter: 1em;
+  width: 100%;
+  flex-flow: row wrap;
+  gap: var(--gutter);
+}
